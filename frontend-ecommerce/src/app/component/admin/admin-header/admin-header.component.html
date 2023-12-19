@@ -1,0 +1,21 @@
+<div class="main">
+    <div><img  src="../../../assets/Images/logo3.jpg" width="10%" height="90%"></div>
+    <div (click)="gotourl('/admin/home')" [class.selected]="url === '/admin/home'">Home</div>
+    <div (click)="gotourl('/admin/additem')" [class.selected]="url === '/admin/additem'">Add Items</div>
+    <div (click)="gotourl('/admin/itemlist')" [class.selected]="url === '/admin/itemlist'">List Items</div>
+    <div (click)="gotourl('/admin/orderlist')" [class.selected]="url === '/admin/orderlist'">Order List</div>
+    <div [matMenuTriggerFor]="menu" class="user-name-item">
+        <br>
+        <div>{{userName}}&nbsp;</div>
+        <div>
+            <mat-icon>expand_more</mat-icon>
+        </div>
+    </div>
+</div>
+
+<mat-menu #menu="matMenu">
+    <button (click)="gotourl('/admin/logout')" mat-menu-item>
+        <mat-icon>logout</mat-icon> Logout
+    </button>
+
+</mat-menu>

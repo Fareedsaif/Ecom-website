@@ -1,0 +1,38 @@
+.main
+{
+    display: flex;
+    justify-content:space-around;
+    height: 90px;
+    background-color:white;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    text-decoration-color: rgb(72, 16, 85);
+    font-weight: 800;
+}
+/*.main > .selected {
+     background: rgb(72, 16, 85); 
+    display: flex;
+    color: black;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-weight: 800;
+}*/
+.main img {
+    height: 3em;
+    width: 240px;
+    padding-top: 20px;;
+}
+.main div
+{
+    cursor: pointer;
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+
+.main div:hover{
+    color: grey;
+}

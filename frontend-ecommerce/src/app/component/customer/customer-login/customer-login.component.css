@@ -1,0 +1,21 @@
+.customer-login {
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: rgb(109 109 125 / 28%) 0px 4px 7px 12px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: rgb(72, 16, 85);
+  
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+.sign-up{
+  background-color: white;
+  color: rgb(72, 16, 85);
+  cursor: pointer;
+  font-weight: bold;
+}
+

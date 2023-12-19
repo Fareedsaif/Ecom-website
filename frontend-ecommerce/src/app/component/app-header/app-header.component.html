@@ -1,0 +1,12 @@
+<!-- <p>app-header works!</p> -->
+
+
+<div class="main">
+    <div><img  src="../../../assets/Images/logo3.jpg" width="10%" height="90%"></div>
+    <div (click)="gotourl('')" [class.selected]="url === '/'">Home</div>
+    <div (click)="gotourl('aboutus')" [class.selected]="url === '/aboutus'">About us</div>
+    <div (click)="gotourl('contactus')" [class.selected]="url === '/contactus'">Contact us</div>
+    <div (click)="gotourl('login')" [class.selected]="url === '/login'">Login</div>
+    <!-- <div (click)="gotourl('customer-register')" [class.selected]="url === '/customer-register'">Register</div> -->
+
+</div>

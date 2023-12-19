@@ -1,0 +1,82 @@
+/* body div img{
+  width: 1400px;
+  height: 300px;
+}
+
+.heading{
+  text-align: center;
+}
+
+div .content-1 {
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+} */
+
+/* .contentBox{
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  padding-left: 20px;
+  margin-left:19%;
+} */
+
+body{
+  background-image: url('https://img.freepik.com/premium-vector/abstract-blue-background_285281-105.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_title{
+  font-size: 30px;
+}
+
+.about{
+  display: block;
+  border: 2px solid rgb(240, 175, 175);
+  padding-bottom: 43px;
+  width: 400px;
+  height: 250px;
+}
+
+.heading-contact{
+  /* display: flex; */
+  padding-top: 15px;
+  padding-left: 30%;
+  font-weight:bold ;
+}
+
+.about_text{
+  text-shadow: 2%;
+}
+
+li{
+  list-style: none;
+}
+
+.contact_info{
+  padding-top: 20px;
+}
+
+div .logo{
+  text-align: center;
+  padding-left: 800%;
+}
+
+footer div.footer-1{
+  
+  padding-left: 50px;
+  color: rgba(83, 205, 241, 0.918);				
+  font-family: 'Arial Narrow', Arial, sans-serif ;
+  display: block;
+}
+
+footer{
+  background-color: black;
+  height: 50px;
+}

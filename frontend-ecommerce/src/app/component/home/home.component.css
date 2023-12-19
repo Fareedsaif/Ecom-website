@@ -1,0 +1,40 @@
+.heading{
+    background-image: url("../../../assets/Images/background_img2.avif");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    color: rgba(13, 15, 13, 0.753);
+    padding-top: 120px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1px;
+    font-size: x-large;
+
+    background-color:white;
+    align-items: center;
+    color:rgb(1, 70, 1);
+    font-weight: 500;
+    
+}
+img {
+    width: 100vw;
+    height: 500px;
+    background-color:white;
+}
+#exploreMenuSection img {
+    height: 203px;
+}
+.shadow {
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: white;
+}
+
+
+/* footer */
+
